@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="./public/assets/images/supabase_appointment.png" alt="Healthcare Banner" />
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TAILWIND_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+</p>
 
-First, run the development server:
+<h1 align="center">HEALTHCARE MANAGEMENT SYSTEM</h1>
+
+<p align="center">
+  PATIENT REGISTRATION • APPOINTMENTS • ADMIN DASHBOARD • SMS NOTIFICATIONS
+</p>
+
+---
+
+## 📋 TABLE OF CONTENTS
+
+- 🤖 [INTRODUCTION](#-introduction)
+- ⚙️ [TECH STACK](#️-tech-stack)
+- 🔋 [FEATURES](#-features)
+- 🤸 [QUICK START](#-quick-start)
+- 🔐 [ENVIRONMENT VARIABLES](#-environment-variables)
+- 🧱 [SUPABASE DATABASE](#-supabase-database)
+- ▶️ [RUNNING THE PROJECT](#️-running-the-project)
+- 🚀 [MORE](#-more)
+- 🙌 [CREDITS](#-credits)
+
+---
+
+## 🤖 INTRODUCTION
+
+A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors.
+
+It also includes admin tools for scheduling, confirming, and canceling appointments, along with SMS notifications using Twilio.
+
+> This project is based on the JavaScript Mastery Healthcare project, but this version uses **Supabase instead of Appwrite**.
+
+---
+
+## ⚙️ TECH STACK
+
+- NEXT.JS
+- TYPESCRIPT
+- TAILWIND CSS
+- SHADCN UI
+- SUPABASE
+- TWILIO
+
+---
+
+## 🔋 FEATURES
+
+👉 **REGISTER AS A PATIENT**  
+Users can sign up and create a personal profile as a patient.
+
+👉 **BOOK A NEW APPOINTMENT WITH DOCTOR**  
+Patients can schedule appointments with doctors at their convenience and book multiple appointments.
+
+👉 **MANAGE APPOINTMENTS ON ADMIN SIDE**  
+Administrators can view and manage all scheduled appointments.
+
+👉 **CONFIRM/SCHEDULE APPOINTMENT FROM ADMIN SIDE**  
+Admins can confirm appointments and set appointment times.
+
+👉 **CANCEL APPOINTMENT FROM ADMIN SIDE**  
+Administrators can cancel any appointment when needed.
+
+👉 **SEND SMS ON APPOINTMENT CONFIRMATION**  
+Patients receive SMS notifications to confirm their appointment details using Twilio.
+
+👉 **FILE UPLOAD USING SUPABASE STORAGE**  
+Users can upload and store files securely using Supabase Storage.
+
+👉 **SUPABASE DATABASE INTEGRATION**  
+Patient and appointment data are stored using Supabase PostgreSQL.
+
+👉 **COMPLETE RESPONSIVENESS**  
+The application works smoothly across desktop, tablet, and mobile screens.
+
+👉 **CLEAN CODE ARCHITECTURE**  
+Reusable components, server actions, validation, and organized project structure.
+
+---
+
+## 🤸 QUICK START
+
+Follow these steps to set up the project locally on your machine.
+
+### PREREQUISITES
+
+Make sure you have the following installed:
+
+- Git
+- Node.js
+- npm
+
+---
+
+### CLONING THE REPOSITORY
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
